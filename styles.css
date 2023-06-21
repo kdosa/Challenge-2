@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(0, 0%, 94%);
+    font-size: 32px;
+    margin: 50px;
+  }
+  
+  .container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    margin: 40px;
+    padding-left: 20px;
+    border-radius: 34px;
+    border-bottom-right-radius: 35%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card {
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 12px;
+  }
+  
+  .labels {
+    word-spacing: 18px;
+  }
+  
+  #submit{
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 100px;
+    border-style:double;
+    padding: 12px;
+    margin-left: 79%;
+    margin-top: 0%;
+    
+  }
+  
+  .card_details {
+    padding-left: 30%;
+    font-style: italic;
+    font-size: 32px;
+    color: hsl(259, 100%, 65%);
+  }
+  
+  h1 {
+    padding-left: 30%;
+  }
+  
+  hr {
+    margin-top: 4%; 
+    margin-right: 22%;
+    
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 768px) {
+    .container {
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    .card_details {
+      padding-left: 0;
+      text-align: center;
+      font-size: 32px;
+    }
+  
+    h1 {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
